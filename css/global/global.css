@@ -4,7 +4,10 @@
 
 h1,
 ul,
-p {
+p,
+h3,
+h4,
+h2 {
   margin: 0;
 }
 
@@ -27,4 +30,15 @@ img {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+[src$=".jpg"] {
+  border-radius: 5px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
