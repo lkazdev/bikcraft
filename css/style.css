@@ -1,4 +1,5 @@
 @import "./global/header.css";
 @import "./global/global.css";
 @import "./home/introducao.css";
-@import "./bicicletas-lista/bicicletas.css"
+@import "./bicicletas-lista/bicicletas.css";
+@import "./home/tecnologia.css";
