@@ -1,0 +1,88 @@
+.rodape-bg {
+  color: #fff;
+  background: #000;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.rodape {
+  display: grid;
+  grid-template-columns: 3fr 5fr 4fr;
+  gap: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.rodape-redes {
+  display: flex;
+  gap: 30px;
+}
+
+.rodape-contato li,
+.rodape-informacoes li {
+  font-family: "Roboto";
+  font-size: 18px;
+  color: #b2b2b2;
+}
+
+.rodape-contato li + li,
+.rodape-informacoes li + li {
+  padding-top: 20px;
+}
+
+.rodape-contato li:nth-child(even):after {
+  content: "";
+  display: block;
+  width: 70%;
+  height: 2px;
+  background: #111111;
+  margin-top: 16px;
+}
+
+.rodape-contato h2,
+.rodape-informacoes h2 {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
+  font-family: "Roboto";
+  padding-bottom: 30px;
+}
+
+.rodape-redes {
+  margin-top: 30px;
+}
+
+.rodape-copy {
+  color: #b2b2b2;
+  font-family: "Roboto";
+  font-size: 18px;
+  width: max-content;
+  margin-top: 40px;
+}
+
+.rodape a:hover {
+  color: #fff;
+}
+
+@media (max-width: 800px) {
+  .rodape img{
+    display: none;
+  }
+
+  .rodape {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .rodape {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 400px) {
+  .rodape-copy {
+    width: initial;
+  }
+}
