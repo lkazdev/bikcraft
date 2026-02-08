@@ -89,6 +89,14 @@
     padding-bottom: 60px;
   }
 
+  .bicicletas-lista h2 {
+    font-size: 32px;
+  }
+
+  .bicicletas-lista h3 {
+    font-size: 25px;
+  }
+
   .bicicletas-lista ul {
     gap: 20px;
   }

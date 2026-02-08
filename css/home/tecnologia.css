@@ -108,12 +108,32 @@
   }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 800px) {
   .tecnologia-bg {
     box-shadow: initial;
   }
   .tecnologia {
     grid-template-columns: 1fr;
+  }
+
+  .tecnologia-conteudo h2 {
+    font-size: 32px;
+  }
+
+  .tecnologia-conteudo a {
+    font-size: 25px;
+  }
+
+  .tecnologia-conteudo span {
+    font-size: 20px;
+  }
+
+  .tecnologia-conteudo p {
+    font-size: 20px;
+  }
+
+  .tecnologia-vantagens p {
+    font-size: 20px;
   }
 
   .tecnologia-conteudo {
