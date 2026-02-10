@@ -1,72 +1,18 @@
-.termos-de-uso-bg {
-  background: #111111;
-  color: #fff;
-  padding: 55px 0px;
+.termos {
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
-.termos-de-uso h3 {
-  font-size: 60px;
-  font-family: "Poppins";
+.termos h2 {
   font-weight: 600;
-}
-
-.termos-de-uso > span {
-  font-size: 24px;
-  text-transform: uppercase;
-  color: #b2b2b2;
-  font-family: "Roboto";
-}
-
-.termos-de-uso h3 span {
-  color: #ffbb00;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.termos-gerais {
-  padding: 80px 20px;
-}
-
-.termos-gerais h2 {
   margin-bottom: 20px;
-  font-size: 24px;
-  font-family: "Poppins";
 }
 
-.termos-gerais p + p {
-  margin-top: 30px;
+.termos p + h2 {
+  margin-top: 40px;
 }
 
-.termos-gerais p:nth-child(4),
-.termos-gerais p:nth-child(6) {
-  margin-bottom: 40px;
-}
-
-.termos-gerais p {
-  line-height: 1.5;
+.termos p {
   max-width: 75ch;
-  font-size: 16px;
-  color: #2e2e2e;
-  font-family: "Roboto";
-}
-
-@media (max-width: 800px) {
-  .termos-de-uso-bg {
-    padding: 40px 0px;
-  }
-}
-
-@media (max-width: 820px) {
-  .termos-de-uso > span {
-    font-size: 15px;
-  }
-
-  .termos-de-uso h3 {
-    font-size: 42px;
-  }
-}
-
-@media (max-width: 600px) {
-  .termos-de-uso h3 {
-    font-size: 32px;
-  }
+  margin-bottom: 24px;
 }
